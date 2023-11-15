@@ -1,3 +1,8 @@
+<script type="text/javascript"
+  async
+  src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML">
+</script>
+
 # Track4：爬楼梯
 
 # ✨ 一、作品介绍
@@ -18,7 +23,22 @@
 
 斐波那契数列的递推公式可以由矩阵表示为：
 ![image](https://raw.githubusercontent.com//Aquilaxc/mountain-climbing/tree/main/imgs/formula2.png)
-
+\[
+\begin{bmatrix}
+f_{n+1} \\
+f_{n}
+\end{bmatrix}
+=
+\begin{bmatrix}
+1 & 1 \\
+1 & 0
+\end{bmatrix}
+\cdot
+\begin{bmatrix}
+f_n \\
+f_{n-1}
+\end{bmatrix}
+\]
 
 从递推公式中可以推导出，斐波那契数列本质上是求矩阵R：
 ![image](https://github.com/Aquilaxc/mountain-climbing/tree/main/imgs/formula1.png)
@@ -46,3 +66,8 @@
 python main.py
 爬到1024级台阶的方法数=7291993184377412737043195648396979558721167948342308637716205818587400148912186579874409368754354848994831816250311893410648104792440789475340471377366852420526027975140687031196633477605718294523235826853392138525
 ```
+
+<script type="text/javascript"
+  async
+  src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML">
+</script>
