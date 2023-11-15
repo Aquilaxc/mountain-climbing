@@ -39,6 +39,17 @@ $$
         f_n \\
         f_{n-1}
     \end{bmatrix}
+    =
+     \begin{bmatrix}
+        1 & 1 \\
+        1 & 0
+    \end{bmatrix}
+    ^{n-1}
+    \cdot
+    \begin{bmatrix}
+        f_{2} \\
+        f_{1}
+    \end{bmatrix}
 $$
 
 #### 3.3 矩阵的幂运算
@@ -68,7 +79,7 @@ $$
 若我们设
 
 $$
-    a_n = f_{n+1}
+    a_n = f_{n+1} \\\\\
     b_n = f_n
 $$
 
