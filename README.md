@@ -20,22 +20,7 @@
 
 
 
-$$
-\begin{bmatrix}
-f_{n+1} \\
-f_{n}
-\end{bmatrix}
-=
-\begin{bmatrix}
-1 & 1 \\
-1 & 0
-\end{bmatrix}
-\cdot
-\begin{bmatrix}
-f_n \\
-f_{n-1}
-\end{bmatrix}
-$$
+$$ \begin{bmatrix} f_{n+1} \\ f_{n} \end{bmatrix}= \begin{bmatrix} 1 & 1 \\ 1 & 0 \end{bmatrix} \cdot \begin{bmatrix} f_n \\ f_{n-1} \end{bmatrix} $$
 
 
 
@@ -44,18 +29,18 @@ $$
 
 
 $$
-R
-=
-\begin{bmatrix}
-f_{n+1} & f_n \\
-f_n & f_{n-1}
-\end{bmatrix}
-=
-\begin{bmatrix}
-1 & 1 \\
-1 & 0
-\end{bmatrix}
-^n
+    R
+    =
+    \begin{bmatrix}
+    f_{n+1} & f_n \\
+    f_n & f_{n-1}
+    \end{bmatrix}
+    =
+    \begin{bmatrix}
+    1 & 1 \\
+    1 & 0
+    \end{bmatrix}
+    ^n
 $$
 
 
