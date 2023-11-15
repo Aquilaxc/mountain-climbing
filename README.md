@@ -1,8 +1,3 @@
-<script type="text/javascript"
-  async
-  src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML">
-</script>
-
 # Track4：爬楼梯
 
 # ✨ 一、作品介绍
@@ -24,6 +19,7 @@
 斐波那契数列的递推公式可以由矩阵表示为：
 
 
+
 $$
 \begin{bmatrix}
 f_{n+1} \\
@@ -41,7 +37,12 @@ f_{n-1}
 \end{bmatrix}
 $$
 
+
+
 从递推公式中可以推导出，斐波那契数列本质上是求矩阵R：
+
+
+
 $$
 R
 =
@@ -57,6 +58,8 @@ f_n & f_{n-1}
 ^n
 $$
 
+
+
 矩阵R中，f_{n+1} = f_n + f_{n-1}，因此矩阵R又可以简化为
 
 
@@ -67,6 +70,7 @@ a & b \\\\\
 b & a-b
 \end{bmatrix}
 $$
+
 
 因此，只需求出矩阵R的第1列即可。
 
@@ -84,6 +88,7 @@ A^{p} \cdot A^{p}, n=2p+1 \\
 $$
 
 
+
 $$
 A
 =
@@ -93,7 +98,13 @@ A
 \end{bmatrix}
 $$
 
+
+
+
 可推导出：
+
+
+
 
 $$
 a_n = 
@@ -105,6 +116,9 @@ a_p^2 + 2a_pb_p, n=2p+1 \\
 \right.
 $$
 
+
+
+
 $$
 b_n = 
 \left\{
@@ -114,6 +128,9 @@ a_p^2 + b_p^2, n=2p+1 \\
 \end{aligned}
 \right.
 $$
+
+
+
 
 将1024转换为二进制，并从最左侧第二位开始，如果是1则代表使用n=2p+1对应的公式，如果是0则代表使用n=2p对应的公式，代入公式即可算出。
 
@@ -127,8 +144,3 @@ $$
 python main.py
 爬到1024级台阶的方法数=7291993184377412737043195648396979558721167948342308637716205818587400148912186579874409368754354848994831816250311893410648104792440789475340471377366852420526027975140687031196633477605718294523235826853392138525
 ```
-
-<script type="text/javascript"
-  async
-  src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML">
-</script>
