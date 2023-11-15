@@ -79,8 +79,10 @@ $$
 若我们设
 
 $$
+    \begin{cases}
     a_n = f_{n+1} \\\\\
     b_n = f_n
+    \end{cases}
 $$
 
 矩阵R又可以简化为
