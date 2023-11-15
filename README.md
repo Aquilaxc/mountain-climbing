@@ -20,7 +20,22 @@
 
 
 
-$$ \begin{bmatrix} f_{n+1} \\ f_{n} \end{bmatrix}= \begin{bmatrix} 1 & 1 \\ 1 & 0 \end{bmatrix} \cdot \begin{bmatrix} f_n \\ f_{n-1} \end{bmatrix} $$
+$$
+    \begin{bmatrix}
+    f_{n+1} \\
+    f_{n}
+    \end{bmatrix}
+    =
+    \begin{bmatrix}
+    1 & 1 \\
+    1 & 0
+    \end{bmatrix}
+    \cdot
+    \begin{bmatrix}
+    f_n \\
+    f_{n-1}
+    \end{bmatrix}
+$$
 
 
 
@@ -49,11 +64,11 @@ $$
 
 
 $$
-R =
-\begin{bmatrix}
-a & b \\\\\
-b & a-b
-\end{bmatrix}
+    R =
+    \begin{bmatrix}
+    a & b \\\\\
+    b & a-b
+    \end{bmatrix}
 $$
 
 
@@ -63,24 +78,24 @@ $$
 
 
 $$
-R = 
-\left\{
-\begin{aligned}
-\ \ \ A^{p} \cdot A^{p}, n=2p \\
-A^{p} \cdot A^{p}, n=2p+1 \\
-\end{aligned}
-\right.
+    R = 
+    \left\{
+    \begin{aligned}
+    \ \ \ A^{p} \cdot A^{p}, n=2p \\
+    A^{p} \cdot A^{p}, n=2p+1 \\
+    \end{aligned}
+    \right.
 $$
 
 
 
 $$
-A
-=
-\begin{bmatrix}
-1 & 1 \\
-1 & 0
-\end{bmatrix}
+    A
+    =
+    \begin{bmatrix}
+    1 & 1 \\
+    1 & 0
+    \end{bmatrix}
 $$
 
 
@@ -92,26 +107,26 @@ $$
 
 
 $$
-a_n = 
-\left\{
-\begin{aligned}
-a_p^2 + b_p^2, n=2p \\
-a_p^2 + 2a_pb_p, n=2p+1 \\
-\end{aligned}
-\right.
+    a_n = 
+    \left\{
+    \begin{aligned}
+    a_p^2 + b_p^2, n=2p \\
+    a_p^2 + 2a_pb_p, n=2p+1 \\
+    \end{aligned}
+    \right.
 $$
 
 
 
 
 $$
-b_n = 
-\left\{
-\begin{aligned}
-2a_pb_p - b_p^2, n=2p \\
-a_p^2 + b_p^2, n=2p+1 \\
-\end{aligned}
-\right.
+    b_n = 
+    \left\{
+    \begin{aligned}
+    2a_pb_p - b_p^2, n=2p \\
+    a_p^2 + b_p^2, n=2p+1 \\
+    \end{aligned}
+    \right.
 $$
 
 
