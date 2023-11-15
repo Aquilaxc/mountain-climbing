@@ -17,22 +17,22 @@
 因此，第1024级台阶实际上为斐波那契数列第1025项。
 
 斐波那契数列的递推公式可以由矩阵表示为：
-![image](https://gitlab.dev.21vianet.com/liu.xingchen/mountain_climbing/-/tree/main/imgs/formula2.png)
+![image](https://github.com/Aquilaxc/mountain-climbing/tree/main/imgs/formula2.png)
 
 
 从递推公式中可以推导出，斐波那契数列本质上是求矩阵R：
-![image](https://gitlab.dev.21vianet.com/liu.xingchen/mountain_climbing/-/tree/main/imgs/formula1.png)
+![image](https://github.com/Aquilaxc/mountain-climbing/tree/main/imgs/formula1.png)
 
 矩阵R中，f_{n+1} = f_n + f_{n-1}，因此矩阵R又可以简化为
-![image](https://gitlab.dev.21vianet.com/liu.xingchen/mountain_climbing/-/tree/main/imgs/formula3.png)
+![image](https://github.com/Aquilaxc/mountain-climbing/tree/main/imgs/formula3.png)
 
 因此，只需求出矩阵R的第1列即可。
 
 使用二分法加速矩阵幂运算，即：
-![image](https://gitlab.dev.21vianet.com/liu.xingchen/mountain_climbing/-/tree/main/imgs/formula4.png)
+![image](https://github.com/Aquilaxc/mountain-climbing/tree/main/imgs/formula4.png)
 
 可推导出：
-![image](https://gitlab.dev.21vianet.com/liu.xingchen/mountain_climbing/-/tree/main/imgs/formula5.png)
+![image](https://github.com/Aquilaxc/mountain-climbing/tree/main/imgs/formula5.png)
 
 将1024转换为二进制，并从最左侧第二位开始，如果是1则代表使用n=2p+1对应的公式，如果是0则代表使用n=2p对应的公式，代入公式即可算出。
 
