@@ -23,6 +23,9 @@
 
 斐波那契数列的递推公式可以由矩阵表示为：
 ![image](https://raw.githubusercontent.com//Aquilaxc/mountain-climbing/tree/main/imgs/formula2.png)
+
+<pre>
+```
 \[
 \begin{bmatrix}
 f_{n+1} \\
@@ -39,6 +42,8 @@ f_n \\
 f_{n-1}
 \end{bmatrix}
 \]
+```
+</pre>
 
 从递推公式中可以推导出，斐波那契数列本质上是求矩阵R：
 ![image](https://github.com/Aquilaxc/mountain-climbing/tree/main/imgs/formula1.png)
