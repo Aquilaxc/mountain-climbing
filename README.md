@@ -17,7 +17,7 @@
 因此，第1024级台阶实际上为斐波那契数列第1025项。
 
 斐波那契数列的递推公式可以由矩阵表示为：
-![image](https://github.com/Aquilaxc/mountain-climbing/tree/main/imgs/formula2.png)
+![image](https://raw.githubusercontent.com//Aquilaxc/mountain-climbing/tree/main/imgs/formula2.png)
 
 
 从递推公式中可以推导出，斐波那契数列本质上是求矩阵R：
