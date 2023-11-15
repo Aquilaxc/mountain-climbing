@@ -43,6 +43,15 @@ f_{n-1}
 \]
 </pre>
 
+
+$$
+\begin{Bmatrix}
+    1 & 2 & 3 \\\\
+    4 & 5 & 6 \\\\
+    7 & 8 & 9
+\end{Bmatrix} \tag{2}
+$$
+
 从递推公式中可以推导出，斐波那契数列本质上是求矩阵R：
 ![image](https://github.com/Aquilaxc/mountain-climbing/tree/main/imgs/formula1.png)
 
