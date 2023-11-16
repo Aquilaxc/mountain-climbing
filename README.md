@@ -104,8 +104,8 @@ $$
 $$
     R = 
     \begin{cases}
-        A^{p} \cdot A^{p}, & n=2p \\
-        A^{p} \cdot A^{p} \cdot A, & n=2p+1
+        A^{p} \cdot A^{p}, & n=2p, & p \in \mathbb{N} \\
+        A^{p} \cdot A^{p} \cdot A, & n=2p+1, & p \in \mathbb{N} 
     \end{cases}
 $$
 
