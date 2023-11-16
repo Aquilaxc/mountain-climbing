@@ -49,7 +49,7 @@ $$
     \begin{bmatrix}
         f_{2} \\
         f_{1}
-    \end{bmatrix}
+    \end{bmatrix} \tag{1}
 $$
 
 #### 3.3 矩阵的幂运算
@@ -67,13 +67,13 @@ $$
         1 & 1 \\
         1 & 0
     \end{bmatrix}
-    ^n
+    ^n \tag{2}
 $$
 
 此外，在矩阵R中，
 
 $$
-    f_{n+1} = f_n + f_{n-1}
+    f_{n+1} = f_n + f_{n-1} \tag{3}
 $$
 
 若我们设
@@ -82,7 +82,7 @@ $$
     \begin{cases}
     a_n = f_{n+1} \\\\\
     b_n = f_n
-    \end{cases}
+    \end{cases} \tag{4}
 $$
 
 矩阵R又可以简化为
@@ -92,7 +92,7 @@ $$
     \begin{bmatrix}
     a_n & b_n \\\\\
     b_n & a_n - b_n
-    \end{bmatrix}
+    \end{bmatrix} \tag{5}
 $$
 
 这里只有第一列的a和b是未知数，因此，只需求出矩阵R的第1列即可。
@@ -106,7 +106,7 @@ $$
     \begin{cases}
         A^{p} \cdot A^{p}, & n=2p, & p \in \mathbb{N} \\
         A^{p} \cdot A^{p} \cdot A, & n=2p+1, & p \in \mathbb{N} 
-    \end{cases}
+    \end{cases} \tag{6}
 $$
 
 其中，
@@ -116,7 +116,7 @@ $$
     \begin{bmatrix}
         1 & 1 \\
         1 & 0
-    \end{bmatrix}
+    \end{bmatrix} \tag{7}
 $$
 
 推导出递归公式：
@@ -126,7 +126,7 @@ $$
     \begin{cases}
         a_p^2 + b_p^2, & n=2p, & p \in \mathbb{N} \\
         a_p^2 + 2a_pb_p, & n=2p+1, & p \in \mathbb{N}
-    \end{cases}
+    \end{cases} \tag{8}
 $$
 
 $$
@@ -134,7 +134,7 @@ $$
     \begin{cases}
         2a_pb_p - b_p^2, & n=2p, & p \in \mathbb{N} \\
         a_p^2 + b_p^2, & n=2p+1, & p \in \mathbb{N}
-    \end{cases}
+    \end{cases} \tag{9}
 $$
 
 因此，只需要从a, b的第1项递归到第n项，即可得出结果。
