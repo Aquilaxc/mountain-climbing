@@ -124,16 +124,16 @@ $$
 $$
     a_n = 
     \begin{cases}
-        a_p^2 + b_p^2, & n=2p \\
-        a_p^2 + 2a_pb_p, & n=2p+1
+        a_p^2 + b_p^2, & n=2p, & p \in \mathbb{N} \\
+        a_p^2 + 2a_pb_p, & n=2p+1, & p \in \mathbb{N}
     \end{cases}
 $$
 
 $$
     b_n = 
     \begin{cases}
-        2a_pb_p - b_p^2, & n=2p \\
-        a_p^2 + b_p^2, & n=2p+1
+        2a_pb_p - b_p^2, & n=2p, & p \in \mathbb{N} \\
+        a_p^2 + b_p^2, & n=2p+1, & p \in \mathbb{N}
     \end{cases}
 $$
 
